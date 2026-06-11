@@ -1,0 +1,17 @@
+#! /bin/bash
+
+<< comment
+ This script is for demo purpose of error handling.
+comment
+
+
+my_function(){
+        mkdir demo
+}
+
+if ! my_funtion; then
+        echo "This can't be created due to already exist"
+        exit 1
+fi
+
+echo "check code again"
