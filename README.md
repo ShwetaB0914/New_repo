@@ -1,1 +1,3 @@
-# New_repo
+#!/bin?bash
+
+echo "This is my new repo"
